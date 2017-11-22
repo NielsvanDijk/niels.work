@@ -1,7 +1,6 @@
-# HTML Stichting Pasveerkorpsen Leeuwarden
-
+# HTML www.niels.work
 Na het downloaden ga je in de terminal naar:  
-`cd /naar-je-folder/pasveer.nl.html`  
+`cd /naar-je-folder/niels.work`  
 
 Installeer de node_modules:  
 `npm install`
