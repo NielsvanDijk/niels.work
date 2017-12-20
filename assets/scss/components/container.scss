@@ -1,4 +1,4 @@
-.container {
+.container, footer {
 
     &.intro {
         position: relative;
@@ -6,9 +6,17 @@
         margin-top: -50px;
     }
 
+    &.work,
+    &.gulp,
+    &.react,
+    &.gray,
+    footer {
+        margin-top: 60px;
+    }
+
     &.work {
         background: $primary;
-
+        padding: 40px 0;
         color: $white;
 
         .wrapper {
@@ -19,6 +27,25 @@
             }
         }
     }
+
+    &.gray {
+        background: $primary;
+        padding: 40px 0;
+        color: $white;
+
+        .wrapper {
+            background: none;
+
+            h1 {
+                color: $white;
+            }
+        }
+    }
+
+    pre {
+        background: green;
+    }
+
 
     .wrapper {
         // border-radius: 2px;
@@ -46,6 +73,12 @@
             line-height: 36px;
             list-style-position: inside;
             list-style-type: square;
+
+            li {
+                line-height: 32px;
+                font-size: 1.2em;
+                font-weight: 300;
+            }
         }
 
         .col-half {
@@ -64,6 +97,7 @@
             }
 
             h1 {
+                margin-bottom: 20px;
                 font-size: 2em;
             }
         }

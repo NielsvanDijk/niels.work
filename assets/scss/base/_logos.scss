@@ -1,0 +1,31 @@
+.logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 50px;
+
+    .logo {
+        display: flex;
+        height: 75px;
+        margin-right: 75px;
+
+        &.innovatio {
+            background: url('../images/innovatio-logo.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            width: 250px;
+        }
+
+        &.zupr {
+            background: url('../images/logo-zupr.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            width: 250px;
+        }
+
+
+
+    }
+}
