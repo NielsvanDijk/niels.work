@@ -22,7 +22,7 @@ gulp.task('scss', function () {
 // Compile compile style
 gulp.task('style', ['scss'], function() {
     browserSync.init({
-        server: "./"
+        server: "./",
     });
     gulp.watch("./assets/scss/**/*.scss", ['scss']);
     gulp.watch("*.html").on('change', browserSync.reload);
