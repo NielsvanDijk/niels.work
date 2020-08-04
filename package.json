@@ -1,22 +1,55 @@
 {
-  "name": "my_package",
-  "description": "",
-  "version": "1.0.0",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "Zorgcollege",
+  "description": "Personal Prot",
+  "homepage": "https://github.com/NielsvanDijk/niels.work#README",
+  "version": "1.0.1",
+  "main": "dist/index.html",
+  "author": {
+    "name": "Niels van Dijk"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NielsvanDijk/niels.work.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NielsvanDijk/niels.work/issues"
+  },
+  "keywords": [
+    "website"
+  ],
   "dependencies": {
     "bourbon": "^4.3.4",
     "browser-sync": "^2.18.13",
     "chalk": "^2.3.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-coffee": "^2.3.4",
+    "gulp-concat": "^2.6.1",
     "gulp-minify-css": "^1.2.4",
-    "gulp-util": "^3.0.8"
+    "gulp-notify": "^3.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sass-error": "^1.0.5",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-uglifycss": "^1.0.9",
+    "gulp-util": "^3.0.8",
+    "gulp-watch": "^5.0.1",
+    "node-bourbon": "^4.2.8"
   },
   "devDependencies": {
+    "bumped": "^0.12.0",
     "gulp": "^3.9.1",
     "gulp-coffee": "^2.3.4",
     "gulp-plumber": "^1.1.0",
     "gulp-sass": "^3.1.0",
+    "gulp-watch": "^5.0.1",
     "node-bourbon": "^4.2.8"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "license": "ISC"
 }

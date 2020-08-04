@@ -1,5 +1,4 @@
 .container, footer {
-
     &.intro {
         position: relative;
         z-index: 1;
@@ -15,7 +14,7 @@
     }
 
     &.work {
-        background: $primary;
+        background: $color-forest-50;
         padding: 40px 0;
         color: $white;
 
@@ -65,7 +64,7 @@
             margin-top: 10px;
             width: 640px;
             line-height: 32px;
-            font-size: 1.2em;
+            font-size: 1.2rem;
             font-weight: 300;
         }
 
@@ -85,6 +84,27 @@
             display: inline-block;
             margin-right: 4%;
             width: 46%;
+            vertical-align: top;
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            h1,
+            p {
+                width: 100%;
+            }
+
+            h1 {
+                margin-bottom: 20px;
+                font-size: 2em;
+            }
+        }
+
+        .col-third {
+            display: inline-block;
+            margin-right: 4%;
+            width: 29%;
             vertical-align: top;
 
             &:last-child {

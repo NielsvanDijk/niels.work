@@ -1,6 +1,7 @@
 // Base colors
 $primary: #00cc6a;
 $secondary: #ededed;
+$third: #448ccd;
 
 $gold: #ffd700;
 $white: #fff;
@@ -15,3 +16,111 @@ $sans: 'Merriweather Sans', 'Helvetica', sans-serif;
 $serif: 'Podkova', 'Arial', serif;
 
 $min-width: 1100px;
+
+// Colors settings of the application
+$color-white: #fff;
+$color-black: #000;
+
+// Neutral colors
+$color-neutral-0: #919191;
+$color-neutral-10: #939393;
+$color-neutral-20: #969696;
+$color-neutral-30: #9b9b9b;
+$color-neutral-40: #a2a2a2;
+$color-neutral-50: #acacac;
+$color-neutral-60: #bbbbbb;
+$color-neutral-70: #cdcdcd;
+$color-neutral-80: #e2e2e2;
+$color-neutral-90: #f8f8f8;
+
+// $color-neutral-50: #f8f8f8;
+// $color-neutral-100: #acacac;
+
+// Primary colors
+$color-primary-10:  #b7d8f8;
+$color-primary-20:  #92c1ef;
+$color-primary-30:  #6eabe5;
+$color-primary-40:  #4c94d9;
+$color-primary-50:  #2d7ecb;
+$color-primary-60:  #1168ba;
+$color-primary-70:  #0056a6;
+$color-primary-80:  #004b8f;
+$color-primary-90:  #003f78;
+
+$color-green-10: #0a6640;
+$color-green-20: #0d8050;
+$color-green-30: #0f9960;
+$color-green-40: #15b371;
+$color-green-50: #3dcc91;
+
+$color-orange-10: #a66321;
+$color-orange-20: #bf7326;
+$color-orange-30: #d9822b;
+$color-orange-40: #f29d49;
+$color-orange-50: #ffb366;
+
+$color-red-10: #a82a2a;
+$color-red-20: #c23030;
+$color-red-30: #db3737;
+$color-red-40: #f55656;
+$color-red-50: #ff7373;
+
+$color-vermilion-10: #9e2b0e;
+$color-vermilion-20: #b83211;
+$color-vermilion-30: #d13913;
+$color-vermilion-40: #eb532d;
+$color-vermilion-50: #ff6e4a;
+
+$color-rose-10: #a82255;
+$color-rose-20: #c22762;
+$color-rose-30: #db2c6f;
+$color-rose-40: #f5498b;
+$color-rose-50: #ff66a1;
+
+$color-violet-10: #5c255c;
+$color-violet-20: #752f75;
+$color-violet-30: #8f398f;
+$color-violet-40: #a854a8;
+$color-violet-50: #c274c2;
+
+$color-indigo-10: #5642a6;
+$color-indigo-20: #634dbf;
+$color-indigo-30: #7157d9;
+$color-indigo-40: #9179f2;
+$color-indigo-50: #ad99ff;
+
+$color-cobalt-10: #1f4b99;
+$color-cobalt-20: #2458b3;
+$color-cobalt-30: #2965cc;
+$color-cobalt-40: #4580e6;
+$color-cobalt-50: #669eff;
+
+$color-turquoise-10: #008075;
+$color-turquoise-20: #00998c;
+$color-turquoise-30: #00b3a4;
+$color-turquoise-40: #14ccbd;
+$color-turquoise-50: #2ee6d6;
+
+$color-forest-10: #1d7324;
+$color-forest-20: #238c2c;
+$color-forest-30: #29a634;
+$color-forest-40: #43bf4d;
+$color-forest-50: #62d96b;
+
+$color-lime-10: #728c23;
+$color-lime-20: #87a629;
+$color-lime-30: #9bbf30;
+$color-lime-40: #b6d94c;
+$color-lime-50: #d1f26d;
+
+$color-gold-10: #a67908;
+$color-gold-20: #bf8c0a;
+$color-gold-30: #d99e0b;
+$color-gold-40: #f2b824;
+$color-gold-50: #ffc940;
+
+$color-sepia-10: #63411e;
+$color-sepia-20: #7d5125;
+$color-sepia-30: #96622d;
+$color-sepia-40: #b07b46;
+$color-sepia-50: #c99765;

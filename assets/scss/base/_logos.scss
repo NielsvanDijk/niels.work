@@ -6,22 +6,30 @@
 
     .logo {
         display: flex;
-        height: 75px;
         margin-right: 75px;
+        height: 75px;
 
         &.innovatio {
             background: url('../images/innovatio-logo.png');
             background-repeat: no-repeat;
-            background-size: contain;
             background-position: center;
+            background-size: contain;
             width: 250px;
         }
 
         &.zupr {
             background: url('../images/logo-zupr.png');
             background-repeat: no-repeat;
-            background-size: contain;
             background-position: center;
+            background-size: contain;
+            width: 250px;
+        }
+
+        &.payt {
+            background: url('https://www.payt.nl/images/2-payt_rood.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
             width: 250px;
         }
 
